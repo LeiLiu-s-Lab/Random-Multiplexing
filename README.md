@@ -1,5 +1,5 @@
 ### Description
-This repository provides the MATLAB implementation of random multiplexing. 
+This repository includes the MATLAB implementation of random multiplexing. 
 
 (*) References:
 
