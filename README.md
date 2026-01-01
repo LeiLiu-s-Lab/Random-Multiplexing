@@ -19,6 +19,6 @@ In addition, we recommend consulting the following related works:
 
 (1) "RM_uncoded": Multipath MIMO channels with no code, RM (CD-MAMP) v.s. OFDM (LMMSE) v.s. OTFS and AFDM (CD-OAMP).
 
-(2) "RM_LDPC": Currently being cleaned up and documented (coming soon).
+(2) "RM_coded": Multipath MIMO channels with LDPC code: (1) Cascaded detection-decoder, (2) Joint detection-decoder.
 
 (3) "RM_power_allocation": Currently being cleaned up and documented (coming soon).
