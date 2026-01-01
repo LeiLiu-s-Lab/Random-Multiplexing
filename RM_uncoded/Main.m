@@ -1,20 +1,22 @@
 % ----------------------------------------------------------------
-% Uncoded case: random modulation (RM) v.s. OFDM/OTFS/AFDM
+% Uncoded case: random multiplexing (RM) v.s. OFDM/OTFS/AFDM
 % Authors: Lei Liu, Shunqi Huang, Yuhao Chi, Yao Ge
 % ----------------------------------------------------------------
 % If you have any questions, please contact:
 % lei_liu@zju.edu.cn
 % ----------------------------------------------------------------
-% If you use this code, please cite:
-% [1] L. Liu, Y. Chi, S. Huang, "Random Modulation: Achieving Asymptotic 
+% If you use this code, please consider citing:
+% [1] L. Liu, Y. Chi, S. Huang, Z. Zhang, "Random Multiplexing," in IEEE Trans. 
+% Inf. Theory, Accepted in 2025.
+% [2] L. Liu, Y. Chi, S. Huang, "Random Modulation: Achieving Asymptotic 
 % Replica Optimality over Arbitrary Norm-Bounded and Spectrally Convergent 
 % Channel Matrices," in Proc. IEEE Int. Symp. Inf. Theory (ISIT), Michigan, USA, 2025.
-% [2] Y. Chi, L. Liu, Y. Ge, X. Chen, Y. Li, and Z. Zhang, "Interleave Frequency 
+% [3] Y. Chi, L. Liu, Y. Ge, X. Chen, Y. Li, and Z. Zhang, "Interleave Frequency 
 % Division Multiplexing," IEEE Wireless Communications Letters, 
 % vol. 13, no. 7, pp. 1963 - 1967, 2024.
-% [3] L. Liu, S. Huang, and B. M. Kurkoski, "Memory AMP," 
+% [4] L. Liu, S. Huang, and B. M. Kurkoski, "Memory AMP," 
 % IEEE Transactions on Information Theory, vol. 68, no. 12, pp. 8015-8039, 2022.
-% [4] S. Huang, L. Liu and B. M. Kurkoski, "Overflow-Avoiding Memory AMP," 
+% [5] S. Huang, L. Liu and B. M. Kurkoski, "Overflow-Avoiding Memory AMP," 
 % in Proc. IEEE Int. Symp. Inf. Theory (ISIT), Athens, Greece, 2024, pp. 3516-3521
 
 %% Parameters
@@ -179,3 +181,4 @@ legend('RM + MAMP', 'OFDM + OAMP', 'OTFS + OAMP', 'AFDM + OAMP', 'None + OAMP', 
 xlabel('SNR (dB)', 'FontSize', 11);
 
 ylabel('BER', 'FontSize', 11);
+
